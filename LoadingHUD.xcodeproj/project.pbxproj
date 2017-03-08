@@ -13,6 +13,7 @@
 		E066C6C91E6FA47F00ACE1EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E066C6C81E6FA47F00ACE1EE /* Assets.xcassets */; };
 		E066C6CC1E6FA47F00ACE1EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E066C6CA1E6FA47F00ACE1EE /* LaunchScreen.storyboard */; };
 		E066C6D71E6FA48000ACE1EE /* LoadingHUDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E066C6D61E6FA48000ACE1EE /* LoadingHUDTests.swift */; };
+		E066C6E41E6FD1B300ACE1EE /* ReplicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E066C6E31E6FD1B300ACE1EE /* ReplicatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E066C6D21E6FA48000ACE1EE /* LoadingHUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadingHUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E066C6D61E6FA48000ACE1EE /* LoadingHUDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingHUDTests.swift; sourceTree = "<group>"; };
 		E066C6D81E6FA48000ACE1EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E066C6E31E6FD1B300ACE1EE /* ReplicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplicatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				E066C6C81E6FA47F00ACE1EE /* Assets.xcassets */,
 				E066C6CA1E6FA47F00ACE1EE /* LaunchScreen.storyboard */,
 				E066C6CD1E6FA47F00ACE1EE /* Info.plist */,
+				E066C6E31E6FD1B300ACE1EE /* ReplicatorView.swift */,
 			);
 			path = LoadingHUD;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E066C6E41E6FD1B300ACE1EE /* ReplicatorView.swift in Sources */,
 				E066C6C41E6FA47F00ACE1EE /* ViewController.swift in Sources */,
 				E066C6C21E6FA47F00ACE1EE /* AppDelegate.swift in Sources */,
 			);
@@ -410,6 +414,7 @@
 				E066C6DD1E6FA48000ACE1EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E066C6DE1E6FA48000ACE1EE /* Build configuration list for PBXNativeTarget "LoadingHUDTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +423,7 @@
 				E066C6E01E6FA48000ACE1EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
