@@ -47,8 +47,8 @@ class itemLayer: CALayer {
             layer.lineWidth = 0
             layer.lineCap = kCALineCapRound
             let path = UIBezierPath()
-            path.move(to: CGPoint(x: self.bounds.size.width / 2.0, y: 10))
-            path.addLine(to: CGPoint(x: self.bounds.size.width / 2.0, y: self.bounds.size.height / 4.0))
+            path.move(to: CGPoint(x: self.bounds.size.width / 2.0, y: 20))
+            path.addLine(to: CGPoint(x: self.bounds.size.width / 2.0, y: self.bounds.size.height / 4))
             layer.path = path.cgPath
             layer.transform = CATransform3DMakeRotation(CGFloat(index) * angle, 0.0, 0.0, 1.0)
             
@@ -62,23 +62,18 @@ class ReplicatorView: UIView {
     private var replicator : itemLayer!
     private var lastIndex = 0
     
-    override init(frame: CGRect) {
-        super.init(frame: frame)
+    internal func setup() {
         replicator = itemLayer()
         replicator.frame = self.bounds
         self.layer.addSublayer(replicator)
     }
     
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-    func animate()
+    internal func animate()
     {
         //add animation
         let lineWidthAnimation = CABasicAnimation(keyPath: "lineWidth")
         lineWidthAnimation.duration = 2
-        lineWidthAnimation.fromValue = 12
+        lineWidthAnimation.fromValue = 10
         lineWidthAnimation.toValue = 0
         lineWidthAnimation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseIn)
         

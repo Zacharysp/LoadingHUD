@@ -25,13 +25,29 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LoadingHUD/ReplicatorView.swift"
-            timestampString = "510666694.248243"
+            filePath = "LoadingHUD/HUD.swift"
+            timestampString = "510809351.791656"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
-            landmarkName = "init(frame:)"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "show(onView:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LoadingHUD/Container.swift"
+            timestampString = "510809351.791656"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "showLoadingView()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

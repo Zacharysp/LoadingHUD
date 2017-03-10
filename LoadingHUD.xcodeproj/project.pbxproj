@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E02EBDB61E70F95900D9E4D7 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02EBDB51E70F95900D9E4D7 /* HUD.swift */; };
+		E02EBDB81E71026A00D9E4D7 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02EBDB71E71026A00D9E4D7 /* Container.swift */; };
 		E066C6C21E6FA47F00ACE1EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E066C6C11E6FA47F00ACE1EE /* AppDelegate.swift */; };
 		E066C6C41E6FA47F00ACE1EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E066C6C31E6FA47F00ACE1EE /* ViewController.swift */; };
 		E066C6C71E6FA47F00ACE1EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E066C6C51E6FA47F00ACE1EE /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E02EBDB51E70F95900D9E4D7 /* HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+		E02EBDB71E71026A00D9E4D7 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 		E066C6BE1E6FA47F00ACE1EE /* LoadingHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadingHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E066C6C11E6FA47F00ACE1EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E066C6C31E6FA47F00ACE1EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 				E066C6CA1E6FA47F00ACE1EE /* LaunchScreen.storyboard */,
 				E066C6CD1E6FA47F00ACE1EE /* Info.plist */,
 				E066C6E31E6FD1B300ACE1EE /* ReplicatorView.swift */,
+				E02EBDB51E70F95900D9E4D7 /* HUD.swift */,
+				E02EBDB71E71026A00D9E4D7 /* Container.swift */,
 			);
 			path = LoadingHUD;
 			sourceTree = "<group>";
@@ -205,6 +211,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E066C6E41E6FD1B300ACE1EE /* ReplicatorView.swift in Sources */,
+				E02EBDB61E70F95900D9E4D7 /* HUD.swift in Sources */,
+				E02EBDB81E71026A00D9E4D7 /* Container.swift in Sources */,
 				E066C6C41E6FA47F00ACE1EE /* ViewController.swift in Sources */,
 				E066C6C21E6FA47F00ACE1EE /* AppDelegate.swift in Sources */,
 			);
